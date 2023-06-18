@@ -5,7 +5,7 @@ import ShowUser from "./components/ShowUser";
 
 function App() {
   return (
-    <div className="w-96">
+    <div>
       <BrowserRouter>
         <Menu />
         <h1>React App</h1>
