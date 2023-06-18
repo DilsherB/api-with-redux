@@ -11,8 +11,9 @@ function App() {
         <Menu />
         <h1>React App</h1>
         <Routes>
-          <Route exact path="/" element={<AddUser />} />
-          <Route path="/ShowUser" element={<ShowUser />} />
+          <Route path="/" element={<AddUser />} />
+          <Route path="/all-users" element={<ShowUser />} />
+          <Route path="/add-user" element={<AddUser />} />
         </Routes>
       </BrowserRouter>
     </div>

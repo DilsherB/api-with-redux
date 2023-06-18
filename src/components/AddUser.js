@@ -18,7 +18,7 @@ const AddUser = () => {
   return (
     <div>
       <form
-        className="d-flex w-50 mx-auto flex-column gap-2"
+        className="flex flex-col"
         onSubmit={handleSubmit}
       >
         <input
