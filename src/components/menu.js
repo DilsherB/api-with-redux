@@ -8,7 +8,7 @@ const Menu = () => {
     "add-user": "Add User",
   };
   return (
-    <div className="flex-initial">
+    <div className="flex-auto">
       <h5 className="flex-1">Math Magicians</h5>
       <ul className="flex-">
         {Object.keys(menuItems).map((item) => (
